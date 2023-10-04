@@ -1,0 +1,37 @@
+{
+    "qc_processors": {
+        "FT0": {
+            "nchannels": 208,
+            "tasks": {
+                "DigitQcTask": {
+                    "hists": [
+                        "AmpPerChannel",
+                        "TimePerChannel"
+                    ]
+                }
+            }
+        },
+        "FV0": {
+            "nchannels": 48,
+            "tasks": {
+                "DigitQcTask": {
+                    "hists": [
+                        "AmpPerChannel",
+                        "TimePerChannel"
+                    ]
+                }
+            }
+        },
+        "FDD": {
+            "nchannels": 16,
+            "tasks": {
+                "DigitQcTask": {
+                    "hists": [
+                        "AmpPerChannel",
+                        "TimePerChannel"
+                    ]
+                }
+            }
+        }
+    }
+}
